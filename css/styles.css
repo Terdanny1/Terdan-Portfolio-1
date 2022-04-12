@@ -1,0 +1,109 @@
+* {
+  /* font-family: "Poppins", sans-serif; */
+}
+#title {
+  background-color: #0b0b51;
+}
+.container-fluid {
+  padding: 3% 12%;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+h6 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+h1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+/* Naigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Poppins";
+  font-size: 2.1rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Poppins-Light", sans-serif;
+}
+
+.hire-me {
+  margin-right: 3%;
+  margin-top: 3%;
+  font-family: "Poppins";
+  font-weight: normal;
+}
+h4 {
+  color: white;
+}
+
+/* Title Image */
+
+.title-image {
+  border-radius: 100%;
+  width: 60%;
+  padding: 20px 15px 15px;
+}
+
+/* About me */
+
+#About-Me {
+  margin: 2%;
+  text-align: center;
+}
+h2{
+  font-weight: bold;
+}
+
+.About-image {
+  border-radius: 100%;
+  width: 60%;
+  padding: 20px 15px 15px;
+}
+
+.about-text {
+  margin-top: 13%;
+}
+
+/* services */
+
+#services {
+  margin: 5% 20% 5%;
+  padding: 1.5rem;
+  font-size: 1rem;
+  text-align: center;
+}
+h2{
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.text {
+  color: #8f8f8f;
+  font-family: "Poppins-Light", sans-serif;
+}
+
+/* service icons */
+
+.service-icons {
+  padding: 1rem;
+  color: #0b0b51;
+}
