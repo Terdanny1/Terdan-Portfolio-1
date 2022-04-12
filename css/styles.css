@@ -62,7 +62,7 @@ h4 {
 /* About me */
 
 #About-Me {
-  margin: 2%;
+  margin: 1.5rem;
   text-align: center;
 }
 h2{
@@ -76,7 +76,13 @@ h2{
 }
 
 .about-text {
-  margin-top: 13%;
+  color: #0b0b51;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 20px;
+  margin-bottom: 45px;
+  font-weight: bold;
+  text-align: left;
 }
 
 /* services */
@@ -84,11 +90,12 @@ h2{
 #services {
   margin: 5% 20% 5%;
   padding: 1.5rem;
+  margin: 1.5rem;
   font-size: 1rem;
   text-align: center;
 }
 h2{
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 h3 {
@@ -97,8 +104,10 @@ h3 {
 }
 
 .text {
-  color: #8f8f8f;
+  color: #0b0b51;
   font-family: "Poppins-Light", sans-serif;
+  font-weight: bold;
+ 
 }
 
 /* service icons */
