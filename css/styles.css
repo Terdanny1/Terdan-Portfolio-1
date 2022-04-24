@@ -1,23 +1,30 @@
 * {
-  /* font-family: "Poppins", sans-serif; */
+  padding: 0;
+  text-decoration: none;
+  margin: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-#title {
-  background-color: #0b0b51;
+body{
+  background-color: #121212;
+}
+#title{
+  height: 100vh;
+  width: 100%;
 }
 .container-fluid {
-  padding: 3% 12%;
+  /* padding: 3% 12%; */
 }
 .navbar-brand {
   font-weight: bold;
 }
 h6 {
   color: white;
-  font-family: "Poppins", sans-serif;
   font-size: 1rem;
 }
 h1 {
-  color: white;
-  font-family: "Poppins", sans-serif;
+  color: #1010c6;
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 900;
@@ -25,20 +32,40 @@ h1 {
 /* Naigation Bar */
 
 .navbar {
-  padding: 0 0 4.5rem;
+  padding: 1rem 8%;
+  width: 100%;
 }
 
 .navbar-brand {
-  font-family: "Poppins";
+  color: #1010c6;
   font-size: 2.1rem;
   font-weight: bold;
 }
 .nav-item {
-  padding: 0 18px;
+  padding: 10px 25px;
 }
 .nav-link {
-  font-size: 1.2rem;
-  font-family: "Poppins-Light", sans-serif;
+  color: #1010c6;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding: 10px 25px;
+}
+.nav-link:hover{
+  color: #ffffff;
+  transition: 0.4s;
+}
+.btn {
+  color: #1010c6;
+  text-decoration: none;
+  border: 2px solid #1010c6;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: transform 0.4s;
+}
+.btn:hover {
+  transform: scale(1.2);
 }
 
 .hire-me {
@@ -54,8 +81,7 @@ h4 {
 /* Title Image */
 
 .title-image {
-  border-radius: 100%;
-  width: 60%;
+  width: 400px;
   padding: 20px 15px 15px;
 }
 
@@ -70,8 +96,7 @@ h2{
 }
 
 .About-image {
-  border-radius: 100%;
-  width: 60%;
+  width: 430px;
   padding: 20px 15px 15px;
 }
 
@@ -90,7 +115,7 @@ h2{
 #services {
   margin: 5% 20% 5%;
   padding: 1.5rem;
-  margin: 1.5rem;
+  /* margin: 1.3rem; */
   font-size: 1rem;
   text-align: center;
 }
