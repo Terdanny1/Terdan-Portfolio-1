@@ -2,7 +2,9 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Terdan</title>
  <!-- Google fonts -->
  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -22,108 +24,78 @@
 
 <body>
 
-  <section id="title">
 
     <!-- Nav Bar -->
-    <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg justify-content-between" >
-      <a class="navbar-brand" href="">Terdan</a>
-       <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse " id="navbarSupportedContent">
-      <ul class="navbar-nav  navbar justify-content-center">
-          <li class="nav-item">
-              <a class="nav-link" href="">Home</a>
+    <nav class="navbar  navbar-expand-lg navbar-dark  ">
+        <a class="navbar-brand" href="">Terdan</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav  m-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Projects</a>
           </li>
-          <li class="nav-item">
-              <a class="nav-link" href="#About-Me">About</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="#services">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">Projects</a>
-        </li>
-      </ul>
-      <a class="btn" href="#">Contact Me</a>
-   </div>
+        </ul>
+        <a href="#" class="btn">Contact Me</a>
+    </div>
   </nav>
 
+  <main class="site-main">
 
-    <!-- Title -->
 
-    <div class="row">
-      <div class="col-lg-6">
-        <h6>Hello I'm</h6>
-        <h1> Terdan.</h1>
-        <h4>Web Developer and Designer</h4>
-        <button type="button" class="btn btn-outline-light btn-lg hire-me"><i class=></i> Hire Me</button>
-        
+    <!--  ======================= Start hero Area =======================  -->
+    <section class="hero">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 site-title">
+                  <h4>Hello, I am</h4>
+                  <h1>Terdan</h1>
+                  <h3>Web Developer & Designer</h3>
+                    
+                </div>
+                <div class="col-md-6 site-img" >
+                    <img src="Images/Daniel_pic-removebg-preview.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  ======================= Endhero Area =======================  -->
+
+
+
+
+    <!-- About section  -->
+
+    <section class="about" id="about">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="images/Daniel_pic-removebg-preview.png" alt="">
+       
+          </div>
+          
+         
+          <div class=" col-md-6 about-text">
+              <h2>About</h2>
+              <h5>Developer & <span>Designer</span></h5>
+              <p>I am a front-end web developer. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations. A responsive design makes your website accessible to all users, regardless of their device.</p>
+              <!-- <button type="button">Let's Talk</button> -->
+          </div>
       </div>
-        
-    <div class="col-lg-6">
-      <img class="title-image" src="images/Daniel_pic-removebg-preview.png" alt="">
-    </div>
-    </div>
-  </div>
-  
-</section>
+    </section>
 
 
-<!-- About Me -->
 
-<section id="About-Me">
-
-  <h2>About</h2>
-  <div class="row">
-    <div class="col-lg-4 col-xs-12" >
-    <img class="About-image" src="images/Daniel_pic-removebg-preview.png" alt="">
-  </div>
- 
-    <div class="col-lg-4">
-      <p class="about-text"> I am a front-end web developer. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.A responsive design makes your website accessible to all users, regardless of their device.</p>
-    </div>
-    </div>
-  
- 
-  
-<!--   
-  <div class="col-lg-4">
-    <i class="fa-solid fa-bullseye fa-3x service-icons"></i>
-    <h3>Graphics design.</h3>
-    <p class="text">We have all the dogs, the greatest dogs.</p>
-  </div>
-   -->
-
-</section>
-
-<!-- Services -->
-
-<section id="services">
-  <h2>My Services</h2>
-  <div class="row">
-    
-  <div class="col-lg-4">
-    <i class="fa-solid fa-code fa-3x service-icons"></i>
-    <h3>Web Dev.</h3>
-    <p class="text">Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
-  </div>
-  
-  <div class="col-lg-4">
-    <i class="fa-solid fa-user fa-3x service-icons"></i>
-    <h3>UI/UX.</h3>
-    <p class="text">Every interface should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be user friendly.</p>
-  </div>
-  
-  <div class="col-lg-4">
-    <i class="fa-solid fa-pen-nib fa-3x service-icons"></i>
-    <h3>Graphics Design.</h3>
-    <p class="text">Every design should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be compelling and appealing.</p>
-  </div>
-
-  </div>
-</section>
 
 
 </body>

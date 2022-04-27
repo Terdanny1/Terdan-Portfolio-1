@@ -6,53 +6,33 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-body{
-  background-color: #121212;
+body {
+  background-color: #121212 !important;
+  max-width: 100% !important;
+  margin: 0;
 }
-#title{
-  height: 100vh;
-  width: 100%;
-}
-.container-fluid {
-  /* padding: 3% 12%; */
-}
-.navbar-brand {
-  font-weight: bold;
-}
-h6 {
-  color: white;
-  font-size: 1rem;
-}
-h1 {
-  color: #1010c6;
-  font-size: 3rem;
-  line-height: 1.5;
-  font-weight: 900;
-}
-/* Naigation Bar */
-
 .navbar {
   padding: 1rem 8%;
-  width: 100%;
+  background-color: #191919;
+  max-width: 100%;
 }
-
 .navbar-brand {
-  color: #1010c6;
-  font-size: 2.1rem;
+  color: #1010c6 !important;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
   font-weight: bold;
 }
 .nav-item {
   padding: 10px 25px;
 }
 .nav-link {
-  color: #1010c6;
-  text-decoration: none;
+  color: #1010c6 !important;
   font-weight: bold;
   text-transform: capitalize;
-  padding: 10px 25px;
 }
 .nav-link:hover{
-  color: #ffffff;
+  color: white !important;
   transition: 0.4s;
 }
 .btn {
@@ -68,76 +48,83 @@ h1 {
   transform: scale(1.2);
 }
 
-.hire-me {
-  margin-right: 3%;
-  margin-top: 3%;
-  font-family: "Poppins";
-  font-weight: normal;
-}
-h4 {
-  color: white;
+/* hero styles */
+
+/* .site-main .hero .site-title {
+} */
+.container-fluid {
+  padding: 0 8%;
 }
 
-/* Title Image */
-
-.title-image {
-  width: 400px;
-  padding: 20px 15px 15px;
-}
-
-/* About me */
-
-#About-Me {
-  margin: 1.5rem;
-  text-align: center;
-}
-h2{
+.site-main .hero .site-title h4 {
+  padding-top: 30%;
   font-weight: bold;
-}
-
-.About-image {
-  width: 430px;
-  padding: 20px 15px 15px;
-}
-
-.about-text {
-  color: #0b0b51;
-  letter-spacing: 1px;
-  line-height: 28px;
+  color: #1010c6;
+  letter-spacing: 2px;
   font-size: 20px;
-  margin-bottom: 45px;
+}
+.site-main .hero .site-title h1 {
+  font-size: 5rem;
   font-weight: bold;
-  text-align: left;
+  color: #1010c6;
+  font-size: 90px;
 }
 
-/* services */
-
-#services {
-  margin: 5% 20% 5%;
-  padding: 1.5rem;
-  /* margin: 1.3rem; */
-  font-size: 1rem;
-  text-align: center;
-}
-h2{
-  font-weight: bolder;
-}
-
-h3 {
-  font-size: 1rem;
-  font-family: "Poppins", sans-serif;
-}
-
-.text {
-  color: #0b0b51;
-  font-family: "Poppins-Light", sans-serif;
+.site-main .hero .site-title h3 {
+  font-size: 40px;
+  color: #1010c6;
   font-weight: bold;
+}
+
+.site-main .hero img {
+  width: 400px;
+}
+.site-main .hero .site-img {
+  padding: 10px;
+}
+.site-main .hero .img-fluid{
+padding: 0;
+}
+
+/* About styles */
+
+.about{
+  width: 100%;
+  padding: 100px 0px;
+  margin: 50px auto;
+}
+.about img {
+  background-color: #191919;
+  height: auto;
+  width: 430px;
  
 }
-
-/* service icons */
-
-.service-icons {
-  padding: 1rem;
-  color: #0b0b51;
+.about-text {
+  padding: 30px;
+  width: 550px;
+}
+.about-text h2 {
+  color: #1010c6;
+  font-size: 60px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.about-text h5 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+.about-text h5 span {
+  color: #1010c6;
+}
+.about-text p {
+  color: #ffffff;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
 }
